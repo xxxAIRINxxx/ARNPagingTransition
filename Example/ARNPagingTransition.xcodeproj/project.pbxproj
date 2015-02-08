@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		5647879A1A6550C3004CC9CF /* ARNPagingTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787961A6550C3004CC9CF /* ARNPagingTransitionView.swift */; };
 		5647879B1A6550C3004CC9CF /* ARNPagingTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787971A6550C3004CC9CF /* ARNPagingTransitionViewController.swift */; };
-		5647879C1A6550C3004CC9CF /* ARNSlidingViewCoverflowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787981A6550C3004CC9CF /* ARNSlidingViewCoverflowTransition.swift */; };
-		5647879D1A6550C3004CC9CF /* ARNSlidingViewZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787991A6550C3004CC9CF /* ARNSlidingViewZoomTransition.swift */; };
+		5647879C1A6550C3004CC9CF /* ARNPagingCoverflowTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787981A6550C3004CC9CF /* ARNPagingCoverflowTransitionAnimator.swift */; };
+		5647879D1A6550C3004CC9CF /* ARNPagingZoomTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564787991A6550C3004CC9CF /* ARNPagingZoomTransitionAnimator.swift */; };
 		5692150A1A65155900B70C93 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569215091A65155900B70C93 /* Tests.swift */; };
 		7ADA24411A46B2C70022533F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA24401A46B2C70022533F /* AppDelegate.swift */; };
 		7ADA24431A46B2C70022533F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA24421A46B2C70022533F /* ViewController.swift */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		564787961A6550C3004CC9CF /* ARNPagingTransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNPagingTransitionView.swift; path = ../Lib/ARNPagingTransitionView.swift; sourceTree = "<group>"; };
 		564787971A6550C3004CC9CF /* ARNPagingTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNPagingTransitionViewController.swift; path = ../Lib/ARNPagingTransitionViewController.swift; sourceTree = "<group>"; };
-		564787981A6550C3004CC9CF /* ARNSlidingViewCoverflowTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNSlidingViewCoverflowTransition.swift; path = ../Lib/ARNSlidingViewCoverflowTransition.swift; sourceTree = "<group>"; };
-		564787991A6550C3004CC9CF /* ARNSlidingViewZoomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNSlidingViewZoomTransition.swift; path = ../Lib/ARNSlidingViewZoomTransition.swift; sourceTree = "<group>"; };
+		564787981A6550C3004CC9CF /* ARNPagingCoverflowTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNPagingCoverflowTransitionAnimator.swift; path = ../Lib/ARNPagingCoverflowTransitionAnimator.swift; sourceTree = "<group>"; };
+		564787991A6550C3004CC9CF /* ARNPagingZoomTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNPagingZoomTransitionAnimator.swift; path = ../Lib/ARNPagingZoomTransitionAnimator.swift; sourceTree = "<group>"; };
 		569215051A65155900B70C93 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		569215081A65155900B70C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		569215091A65155900B70C93 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 			children = (
 				564787961A6550C3004CC9CF /* ARNPagingTransitionView.swift */,
 				564787971A6550C3004CC9CF /* ARNPagingTransitionViewController.swift */,
-				564787981A6550C3004CC9CF /* ARNSlidingViewCoverflowTransition.swift */,
-				564787991A6550C3004CC9CF /* ARNSlidingViewZoomTransition.swift */,
+				564787981A6550C3004CC9CF /* ARNPagingCoverflowTransitionAnimator.swift */,
+				564787991A6550C3004CC9CF /* ARNPagingZoomTransitionAnimator.swift */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ADA24431A46B2C70022533F /* ViewController.swift in Sources */,
-				5647879D1A6550C3004CC9CF /* ARNSlidingViewZoomTransition.swift in Sources */,
-				5647879C1A6550C3004CC9CF /* ARNSlidingViewCoverflowTransition.swift in Sources */,
+				5647879D1A6550C3004CC9CF /* ARNPagingZoomTransitionAnimator.swift in Sources */,
+				5647879C1A6550C3004CC9CF /* ARNPagingCoverflowTransitionAnimator.swift in Sources */,
 				5647879A1A6550C3004CC9CF /* ARNPagingTransitionView.swift in Sources */,
 				7ADA24411A46B2C70022533F /* AppDelegate.swift in Sources */,
 				5647879B1A6550C3004CC9CF /* ARNPagingTransitionViewController.swift in Sources */,
