@@ -18,7 +18,7 @@ public class ARNPagingTransitionViewController: UIViewController {
         return pagingView
     }()
     
-    override public func addChildViewController(childController: UIViewController) {
+    public override func addChildViewController(childController: UIViewController) {
         self.pagingView.addView(childController.view)
         super.addChildViewController(childController)
         childController.didMoveToParentViewController(self)

@@ -2,8 +2,8 @@
 //  Tests.swift
 //  Tests
 //
-//  Created by takashi yoshinaga on 2015/01/13.
-//  Copyright (c) 2015年 Airin. All rights reserved.
+//  Created by xxxAIRINxxx on 2015/01/13.
+//  Copyright (c) 2015 Airin. All rights reserved.
 //
 
 import UIKit

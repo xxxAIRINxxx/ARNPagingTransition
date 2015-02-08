@@ -10,9 +10,10 @@ import UIKit
 
 public class ARNPagingCoverflowTransitionAnimator: NSObject, ARNPagingTransitionAnimator {
     
-    let finalAngel : CGFloat = 30.0
-    let finalAlpha : CGFloat = 0.6
-    var perspective : CGFloat { return 1.0 / -600 }
+    public var finalAngel : CGFloat = 30.0
+    public var finalAlpha : CGFloat = 0.6
+    
+    public var perspective : CGFloat { return 1.0 / -600 }
     
     public func update(sourceView: UIView, destinationView: UIView?, withpercent: CGFloat, direction: SlideDirection) {
         self.transform(sourceView, isDestinationView: false, withpercent: withpercent, direction: direction)

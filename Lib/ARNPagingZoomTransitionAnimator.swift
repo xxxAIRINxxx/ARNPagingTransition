@@ -10,8 +10,8 @@ import UIKit
 
 public class ARNPagingZoomTransitionAnimator: NSObject, ARNPagingTransitionAnimator {
     
-    let zoom : CGFloat = 0.88
-    let finalAlpha : CGFloat = 0.6
+    public var zoom : CGFloat = 0.88
+    public var finalAlpha : CGFloat = 0.6
     
     public func update(sourceView: UIView, destinationView: UIView?, withpercent: CGFloat, direction: SlideDirection) {
         let sourceViewZoom = 1.0 - CGFloat(1.0 - self.zoom) * withpercent
