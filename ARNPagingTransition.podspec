@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'ARNPagingTransition' => ['Lib/*.png']
   }
-  s.public_header_files = "Lib/*.h"
-
+  
   # s.frameworks = 'UIKit', 'MapKit'
 end
