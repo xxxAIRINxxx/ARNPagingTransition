@@ -3,7 +3,7 @@
 //  ARNPagingTransition
 //
 //  Created by xxxAIRINxxx on 2015/01/05.
-//  Copyright (c) 2015 Airin. All rights reserved.
+//  Copyright (c) 2015 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit
@@ -25,7 +25,7 @@ public class ARNPagingTransitionView: UIView, UIScrollViewDelegate {
     
     var beginOffset : CGFloat = 0.0
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -35,7 +35,7 @@ public class ARNPagingTransitionView: UIView, UIScrollViewDelegate {
     
     public lazy var scrollView : UIScrollView = {
         var scrollView = UIScrollView(frame: self.bounds)
-        scrollView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        scrollView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         scrollView.delegate = self
         scrollView.pagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false
@@ -50,7 +50,7 @@ public class ARNPagingTransitionView: UIView, UIScrollViewDelegate {
         let height = self.bounds.height
         
         view.frame = CGRectMake(width * CGFloat(self.views.count), 0, width, height)
-        view.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        view.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         self.scrollView.addSubview(view)
         self.views.append(view)
         self.scrollView.contentSize = CGSizeMake(width * CGFloat(self.views.count), height)
@@ -68,11 +68,11 @@ public class ARNPagingTransitionView: UIView, UIScrollViewDelegate {
             destView = self.views[nextIndex]
         }
         
-        if let animator = self.animator {
+        if let _animator = self.animator {
             let percent : CGFloat = min(1.0, fabs((offset - self.beginOffset) / pageWidth))
             let sourceView = self.views[self.currentIndex]
             let direction : SlideDirection = (offset - self.beginOffset > 0.0) ? .right : .left
-            animator.update(sourceView, destinationView: destView, withpercent: percent, direction: direction)
+            _animator.update(sourceView, destinationView: destView, withpercent: percent, direction: direction)
         }
     }
     

@@ -3,7 +3,7 @@
 //  ARNPagingTransition
 //
 //  Created by xxxAIRINxxx on 2014/12/21.
-//  Copyright (c) 2014 Airin. All rights reserved.
+//  Copyright (c) 2014 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit

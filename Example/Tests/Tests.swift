@@ -3,7 +3,7 @@
 //  Tests
 //
 //  Created by xxxAIRINxxx on 2015/01/13.
-//  Copyright (c) 2015 Airin. All rights reserved.
+//  Copyright (c) 2015 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit

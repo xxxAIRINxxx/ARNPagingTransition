@@ -16,10 +16,10 @@ class ViewController: ARNPagingTransitionViewController {
         self.pagingView.animator = ARNPagingCoverflowTransitionAnimator()
         //self.pagingView.animator = ARNPagingZoomTransitionAnimator()
         
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-        let vc1 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") as! UIViewController
-        let vc2 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") as! UIViewController
-        let vc3 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") as! UIViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let vc1 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") 
+        let vc2 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") 
+        let vc3 : UIViewController = storyboard.instantiateViewControllerWithIdentifier("vc") 
         
         self.addChildViewController(vc1)
         self.addChildViewController(vc2)

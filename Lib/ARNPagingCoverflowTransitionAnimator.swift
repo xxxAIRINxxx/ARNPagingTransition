@@ -3,7 +3,7 @@
 //  ARNPagingTransition
 //
 //  Created by xxxAIRINxxx on 2015/01/11.
-//  Copyright (c) 2015 Airin. All rights reserved.
+//  Copyright (c) 2015 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ public class ARNPagingCoverflowTransitionAnimator: NSObject, ARNPagingTransition
     
     public var finalAngel : CGFloat = 30.0
     public var finalAlpha : CGFloat = 0.6
-    
     public var perspective : CGFloat { return 1.0 / -600 }
     
     public func update(sourceView: UIView, destinationView: UIView?, withpercent: CGFloat, direction: SlideDirection) {

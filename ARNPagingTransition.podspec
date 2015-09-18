@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "ARNPagingTransition"
-  s.version          = "0.1.1"
-  s.summary          = "Custom transition for PresentViewController (Swift lang)"
+  s.version          = "0.1.2"
+  s.summary          = "Custom transition for PresentViewController written in Swift"
   s.homepage         = "https://github.com/xxxAIRINxxx/ARNPagingTransition"
   # s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'ARNPagingTransition' => ['Lib/*.png']
   }
-  
+
   # s.frameworks = 'UIKit', 'MapKit'
 end

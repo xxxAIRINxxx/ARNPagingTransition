@@ -20,9 +20,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 8.0+ & ARC
-
-- CcoaPods 0.36.0+ (if use CcoaPods)
+* Xcode 7.0
+* iOS 8.0+
+* Swift 2.0
+* CcoaPods 0.36.0+ (if use CcoaPods)
 
 ## Installation
 
@@ -33,10 +34,6 @@ it, simply add the following line to your Podfile:
 
     pod "ARNPagingTransition"
 
-### Carthage
-
-please wait..
-
 ## License
 
-ARNPagingTransition is available under the MIT license. See the LICENSE file for more info.
+MIT license. See the LICENSE file for more info.
