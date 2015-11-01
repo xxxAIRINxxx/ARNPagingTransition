@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "ARNPagingTransition"
   s.version          = "0.1.2"
-  s.summary          = "Custom transition for PresentViewController written in Swift"
+  s.summary          = "Custom transition for PresentViewController. written in Swift."
   s.homepage         = "https://github.com/xxxAIRINxxx/ARNPagingTransition"
   # s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'

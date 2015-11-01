@@ -1,10 +1,8 @@
 # ARNPagingTransition
 
-[![CI Status](http://img.shields.io/travis/xxxAIRINxxx/ARNPagingTransition.svg?style=flat)](https://travis-ci.org/xxxAIRINxxx/ARNPagingTransition)
-[![Language: Swift](https://img.shields.io/badge/lang-Swift-yellow.svg?style=flat)](https://developer.apple.com/swift/)
-[![Version](https://img.shields.io/cocoapods/v/ARNPagingTransition.svg?style=flat)](http://cocoadocs.org/docsets/ARNPagingTransition)
-[![License](https://img.shields.io/cocoapods/l/ARNPagingTransition.svg?style=flat)](http://cocoadocs.org/docsets/ARNPagingTransition)
-[![Platform](https://img.shields.io/cocoapods/p/ARNPagingTransition.svg?style=flat)](http://cocoadocs.org/docsets/ARNPagingTransition)
+[![Swift 2.1](https://img.shields.io/badge/Swift-2.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
+[![Xcode 7.1+](https://img.shields.io/badge/Xcode-7.1+-blue.svg?style=flat)](https://developer.apple.com/swift/)
 
 ![capture1](capture1.gif "capture1")
 
@@ -20,9 +18,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-* Xcode 7.0
+* Xcode 7.1+
 * iOS 8.0+
-* Swift 2.0
+* Swift 2.1
 * CcoaPods 0.36.0+ (if use CcoaPods)
 
 ## Installation
